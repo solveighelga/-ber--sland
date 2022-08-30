@@ -2,47 +2,53 @@
 *, ::before, ::after {
     box-sizing: border-box;
 }
+body {
+background-color: rgb(255, 255, 255);
+}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
   /*  header:  */  
 .topnav {
-  background-color: #ffffff;
+  background-color: #000000;
   overflow: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
+  text-align: right;
   align-content: space-between;
+
 }
 
-.topnav{
-    float: right;
+.topnav-right {
+    text-align: right;
+    display: inline-block;
 }
+
 
   /*  text in navbar  */
 
 .topnav a{
-  color: #000000;
+  color: #ffffff;
   text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
 }
 /*  hover effect over navbuttons  */
+/*  mætti alveg sleppa min  */
+
 .topnav a:hover {
   background-color: #ffffff;
   color: black;
+  opacity: 20%;
 }
 #mainlogo {
     width: 100px;
-    float: hidden;
 }
 
 h1 {
     text-align: center;
 }
+
+
 .box {
     width: 100px;
     height: 100px;
@@ -50,4 +56,31 @@ h1 {
     position: fixed;
     top: 50%;
     left: 50%;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pickup {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    border: 60px;
+    padding: 10px 20px;
+}
+.pickup input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
 }
