@@ -1,10 +1,30 @@
 :root
 *, ::before, ::after {
     box-sizing: border-box;
-    background-color: aqua;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     }
+  /*  header:  */  
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-content: space-between;
+}
+.topnav a{
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
