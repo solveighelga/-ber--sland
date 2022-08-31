@@ -10,9 +10,9 @@ body {
     width: 100%;
     min-height: 100vh;
     padding: 5%;
-    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndineinn.jpg);
-    background-position: center;
+    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndokkar.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
 }
 
@@ -84,6 +84,8 @@ body {
     border-radius: 60px;
     padding: 10px 20px;
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search-bar input {
@@ -149,11 +151,18 @@ button {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 12px;
-
   }
+
   .bottomnav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
     
 }
+
+#bottomlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
