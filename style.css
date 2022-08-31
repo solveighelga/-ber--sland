@@ -9,7 +9,6 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-
     padding: 5%;
     background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndineinn.jpg);
     background-position: center;
@@ -68,6 +67,11 @@ body {
 .box h1 {
     font-size: 80px;
     text-align: center;
+}
+
+.box h2 {
+    color: #ffffff;
+    text-align: left;
 }
 
 .search-bar {
