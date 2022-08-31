@@ -10,9 +10,10 @@ body {
     width: 100%;
     min-height: 100vh;
     padding: 5%;
-    background-image: linear-gradient(rgba(203, 206, 224, 0.9),rgba(0,8,51,0.9)), url(test-drive.jpg);
+    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndineinn.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
 }
 
 /*  header:  */  
