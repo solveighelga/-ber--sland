@@ -23,7 +23,7 @@ body {
     height: auto;
     background-color: #000000;
     overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'montserrat';
     display: flex;
     /*align-content: space-between;*/
 }
@@ -39,7 +39,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat';
 }
 /*  hover effect over navbuttons  */
 /*  mætti alveg sleppa min  */
@@ -66,6 +66,7 @@ body {
 .box h1 {
     font-size: 80px;
     text-align: center;
+    font-family: 'montserrat';
 }
 
 .search-bar {
