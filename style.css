@@ -71,6 +71,7 @@ body {
     display: flex;
     border-radius: 60px;
     padding: 10px 20px;
+    margin: 20px;
 }
 
 .search-bar input {
