@@ -73,6 +73,7 @@ body {
 .box h2 {
     color: #ffffff;
     text-align: left;
+    font-family: 'montserrat';
 }
 
 .search-bar {
@@ -94,7 +95,7 @@ body {
     font-size: 20px;
     color: #cac7ff;
     align-items: center;
-    
+    font-family: 'montserrat';
 }
 
 button {
