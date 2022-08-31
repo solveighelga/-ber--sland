@@ -9,7 +9,7 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    padding: 5%;
+    padding: 0%;
     background-image: linear-gradient(rgba(203, 206, 224, 0.9),rgba(0,8,51,0.9)), url(test-drive.jpg);
     background-position: center;
     background-size: cover;
@@ -39,14 +39,16 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*  hover effect over navbuttons  */
 /*  mætti alveg sleppa min  */
 
 .topnav a:hover {
-    background-color: #ffffff;
-    color: black;
-    opacity: 20%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    border-radius: 60px;
+    
 }
 #mainlogo {
     width: 100px;
@@ -73,20 +75,15 @@ body {
     justify-content: center;
 }
 
-.pickup {
-    width: 100%;
-    max-width: 700px;
+.topnav-right {
     display: flex;
     align-items: center;
-    border: 60px;
-    padding: 10px 20px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.pickup input{
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 20px;
-    font-size: 20px;
+#mainlogo {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
 }
