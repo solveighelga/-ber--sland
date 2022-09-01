@@ -1,5 +1,10 @@
-:root *, ::before, ::after {
+:root  {
     box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;  
 }
 
 body {
@@ -70,8 +75,7 @@ body {
     font-family: 'montserrat';
     font-weight: 600;
     position: relative;
-    bottom: 120px;
-    
+    bottom: 120px;   
 }
 
 .box h2 {
@@ -146,6 +150,24 @@ input::placeholder {
 .fa::before {
     padding-right: 5px;
 }
+
+.buttom-icon-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    overflow: hidden;
+    font-family: 'montserrat';
+    text-align: center;
+    bottom: 60px;
+    padding: 15px;
+}
+
+.buttom-icon a {
+    color: #f2f2f2;
+}
+
 .bottomnav {
     width: 100%;
     height: auto;
@@ -170,7 +192,6 @@ input::placeholder {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
-    
 }
 
 #bottomlogo {
