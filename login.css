@@ -1,16 +1,20 @@
-/*  CSS FOR LOGIN PAGE  */
 :root  {
     box-sizing: border-box;
 }
 
-*, ::before, ::after{
+*, *::before, *::after{
     margin: 0;
     padding: 0;  
+}
+
+html {
+    width: 100vw;
 }
 
 /*Background color for page*/
 body {
     background-color: rgb(255, 255, 255);
+    width: 100vw;
 }
 
 /*  Header: navbar split topnav-left and topnav-right */  
@@ -47,7 +51,7 @@ body {
 }
 
 /*  hover effect over navbuttons  */
-.topnav a:hover {
+.topnav-right a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
@@ -71,7 +75,7 @@ body {
 
 .login-block {
     width: 650px;
-    padding: 205px;
+    padding: 10px;
     background: #fff;
     border-radius: 5px;
     border-top: 150px ;
@@ -129,7 +133,7 @@ body {
     color: rgb(255, 255, 255);   
 }
 
-
+/* footer */
 .bottomnav {
     width: 100%;
     height: auto;
@@ -156,6 +160,25 @@ body {
     color: rgb(255, 255, 255);
     border-radius: 60px;
     
+}
+
+.buttom-icon-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    padding: 0 15px;
+    overflow: hidden;
+    font-family: 'montserrat';
+    text-align: center;
+    bottom: 60px;
+    font-size: 20px;
+}
+
+.buttom-icon a {
+    color: #f2f2f2;
+    padding: 14px 10px;
 }
 
 #bottomlogo {

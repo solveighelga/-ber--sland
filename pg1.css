@@ -67,60 +67,31 @@ body {
     border-radius: 60px;
 }
 
-/* Main: Added image as background with effects */
-.container {
-    width: 100vw;
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndokkar.jpg);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
+/*  login block contains: h1, log in text boxes and submit button  */
+.login-block {
+    width: 650px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 150px ;
+    margin: 285px auto;
 }
 
-/* box containts h1, h2, searchbars and button */
-.box {
-    width: 100%;
-    height: 100%;
-    position: relative;
+/* Log in text */
+.login-block h1 {
     text-align: center;
-    align-content: center;
-    border: none;
-   /* display: inline-block;
-    white-space: nowrap; */
-}
-
-.box h1 {
-    font-size: 80px;
-    text-align: center;
+    color: #000;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
     font-family: 'montserrat';
-    font-weight: 600;
-    position: relative;
-    bottom: 70px;   
 }
 
-.box h2 {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'montserrat';
-    font-weight: 400;
-    padding-bottom: 10px;
-}
-
-/* form-container contains h2, searchbars and button */
-.form-container{
-    width:45%;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: 50px;
-}
-
-.search-bar input {
+/* log in textbars/ username and password */
+.login-block input {
     width: 100%;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(19, 17, 17, 0.1);
     display: flex;
     border-radius: 10px;
     border: 0;
@@ -132,33 +103,33 @@ body {
     font-family: 'montserrat';
 }
 
-/* Change color of text in searchbars */
-input::placeholder {
-    color: black;
+/*Boarder around username/password*/
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #d3d3d3;
 }
 
-/* NEXT button */
-.button-right {
+/*Submit button*/
+.login-block button {
+    width: 106%;
+    height: 40px;
     background: rgba(0, 0, 0, 0.9);  
-    box-sizing:border-box;
+    box-sizing: border-box;
     border-radius: 60px;
+    border: 1px solid #b8b8b8;
     color: #fff;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 14px;
     font-family: Montserrat;
     outline: none;
     cursor: pointer;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    float: right;
+}
+/* hover over submit button */
+.login-block button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);   
 }
 
-/* hover effect over NEXT button */ 
-.button-right a:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: rgb(255, 255, 255);
-}
 
 /* Footer: Contains mainlogo, brand-icons and navigation links*/
 .buttom-icon-container {
@@ -200,8 +171,8 @@ input::placeholder {
     font-size: 12px;
 }
 
-/* hover effect over buttom text */ 
-.bottomnav a:hover {
+  /* hover effect over buttom text */ 
+  .bottomnav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
