@@ -70,7 +70,7 @@ body {
 /*  login block contains: h1, log in text boxes and submit button  */
 
 .login-block {
-    width: 760px;
+    width: 650px;
     padding: 205px;
     background: #fff;
     border-radius: 5px;
@@ -90,15 +90,16 @@ body {
 /* log in textbars/ username and password */
 .login-block input {
     width: 100%;
-    height: 42px;
-    box-sizing: border-box;
+    background: rgba(19, 17, 17, 0.1);
+    display: flex;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 0;
     margin-bottom: 20px;
-    font-size: 14px;
-    font-family: Montserrat;
-    padding: 20px 50px;
     outline: none;
+    padding: 22px 20px;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'montserrat';
 }
 
 /*Boarder around username/password*/
@@ -108,7 +109,7 @@ body {
 
 /*Submit button*/
 .login-block button {
-    width: 100%;
+    width: 106%;
     height: 40px;
     background: rgba(0, 0, 0, 0.9);  
     box-sizing: border-box;
