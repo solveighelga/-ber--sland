@@ -1,4 +1,4 @@
-/*  login info sida  */
+/*  CSS FOR LOGIN PAGE  */
 :root  {
     box-sizing: border-box;
 }
@@ -8,11 +8,12 @@
     padding: 0;  
 }
 
+/*Background color for page*/
 body {
     background-color: rgb(255, 255, 255);
 }
 
-/*  header:  */  
+/*  Header: navbar split topnav-left and topnav-right */  
 .topnav {
     position: fixed;
     top:0%;
@@ -28,7 +29,14 @@ body {
     flex:1 1 200px;
 }
 
-/*  text in navbar  */
+.topnav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-family: 'montserrat';
+}
+
+/* text in navbar */
 .topnav a{
     color: #ffffff;
     text-align: right;
@@ -37,29 +45,20 @@ body {
     font-size: 16px;
     font-family: 'Montserrat';
 }
-/*  hover effect over navbuttons  */
 
+/*  hover effect over navbuttons  */
 .topnav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
-    
+
+    /* main logo on topnav */
 }
 #mainlogo {
     width: 100px;
-}
-
-.topnav-right {
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#mainlogo {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
- 
 }
 
 /*  space between globe and EN  */
@@ -68,9 +67,7 @@ body {
 }
 
 
-
-
-/*  login block  */
+/*  login block contains: h1, log in text boxes and submit button  */
 
 .login-block {
     width: 760px;
@@ -79,9 +76,8 @@ body {
     border-radius: 5px;
     border-top: 150px ;
     margin: 0 auto;
-
 }
-
+/* Log in text */
 .login-block h1 {
     text-align: center;
     color: #000;
