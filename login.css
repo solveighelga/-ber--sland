@@ -11,7 +11,7 @@ html {
     width: 100vw;
 }
 
-/*Background color for page*/
+/* Background color for page */
 body {
     background-color: rgb(255, 255, 255);
     width: 100vw;
@@ -55,9 +55,9 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
-
-    /* main logo on topnav */
 }
+
+ /* main logo on topnav */
 #mainlogo {
     width: 100px;
     margin-left: 20px;
@@ -70,7 +70,6 @@ body {
     padding-right: 5px;
 }
 
-
 /*  login block contains: h1, log in text boxes and submit button  */
 
 .login-block {
@@ -81,6 +80,7 @@ body {
     border-top: 150px ;
     margin: 285px auto;
 }
+
 /* Log in text */
 .login-block h1 {
     text-align: center;
@@ -91,6 +91,7 @@ body {
     margin-bottom: 20px;
     font-family: 'montserrat';
 }
+
 /* log in textbars/ username and password */
 .login-block input {
     width: 100%;
@@ -127,6 +128,7 @@ body {
     outline: none;
     cursor: pointer;
 }
+
 /* hover over submit button */
 .login-block button:hover {
     background-color: rgba(0, 0, 0, 0.8);
@@ -153,13 +155,12 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 12px;
-  }
+}
 
   .bottomnav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
-    
 }
 
 .buttom-icon-container {
@@ -188,8 +189,6 @@ body {
     width: 100px;
   }
 
-  .h1 {
+.h1 {
     font-family: 'montserrat';
   }
-
-

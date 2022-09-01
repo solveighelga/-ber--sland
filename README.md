@@ -1,4 +1,4 @@
-# -ber--sland
+# Úber Ísland
 Úber service in the capital region of Iceland.
 ## first day
 Goal one: Make a navigation bar with logo (still needs fixing)
