@@ -7,21 +7,7 @@
     padding: 0;  
 }
 
-body {
-    background-color: rgb(255, 255, 255);
-}
-
-.container {
-    width: 100%;
-    min-height: 100vh;
-    padding: 5%;
-    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndokkar.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-
-/*  header:  */  
+/*  Header: navbar split topnav-left and topnav-right */  
 .topnav {
     position: fixed;
     top:0%;
@@ -31,14 +17,32 @@ body {
     overflow: hidden;
     font-family: 'montserrat';
     display: flex;
-    /*align-content: space-between;*/
 }
 
 .topnav-left {
     flex:1 1 200px;
 }
 
-/*  text in navbar  */
+.topnav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  space between globe and EN  */
+.fa::before {
+    padding-right: 5px;
+}
+
+#mainlogo {
+    margin-left: 57px;
+    margin-top: 8px;
+    margin-bottom: -4px;
+    width: 100px;
+}
+
+/*  text in navbar */
 .topnav a{
     color: #ffffff;
     text-align: right;
@@ -48,18 +52,25 @@ body {
     font-family: 'Montserrat';
 }
 /*  hover effect over navbuttons  */
-/*  mætti alveg sleppa min  */
-
 .topnav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     border-radius: 60px;
-    
-}
-#mainlogo {
-    width: 100px;
 }
 
+/* Main: Added image as background with effects */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndokkar.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+/* box containts h1, h2, searchbars and button */
 .box {
     width: 100%;
     height: auto;
@@ -86,6 +97,7 @@ body {
     padding-bottom: 10px;
 }
 
+/* form-container contains h2, searchbars and button */
 .form-container{
     width:45%;
     max-width: 700px;
@@ -108,10 +120,13 @@ body {
     align-items: center;
     font-family: 'montserrat';
 }
+
+/* Change color of text in searchbars */
 input::placeholder {
     color: black;
 }
 
+/* NEXT button */
 .button-right {
     float: right;
     border-radius: 60px;
@@ -121,37 +136,13 @@ input::placeholder {
     border-style: none;
 }
 
+/* hover effect over NEXT button */ 
 .button-right button:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);   
 }
 
-.container {
-    width: 100%;
-    min-height: 100vh;
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.topnav-right {
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#mainlogo {
-    margin-left: 57px;
-    margin-top: 8px;
-    margin-bottom: -4px;
-}
-
-/*  space between globe and EN  */
-.fa::before {
-    padding-right: 5px;
-}
-
+/* Footer: Contains mainlogo, brand-icons and navigation links*/
 .buttom-icon-container {
     float: flex;
     justify-content: center;
@@ -188,8 +179,9 @@ input::placeholder {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 12px;
-  }
+}
 
+  /* hover effect over buttom links */ 
   .bottomnav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
