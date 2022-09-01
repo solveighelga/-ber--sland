@@ -39,7 +39,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*  space between globe and EN  */
+/*  space between globe and IS  */
 .fa::before {
     padding-right: 5px;
 }
@@ -126,10 +126,11 @@ body {
     border: 0;
     margin-bottom: 20px;
     outline: none;
-    padding: 22px 20px;
+    padding: 22px 0px;
     font-size: 20px;
     align-items: center;
     font-family: 'montserrat';
+    text-indent: 20px;
 }
 
 /* Change color of text in searchbars */
@@ -154,10 +155,24 @@ input::placeholder {
     float: right;
 }
 
+/*  */ 
+.button-right a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 /* hover effect over NEXT button */ 
 .button-right a:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.button-right:hover {
     color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+}
+.button-right:hover a {
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /* Footer: Contains mainlogo, brand-icons and navigation links*/
