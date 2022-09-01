@@ -87,7 +87,7 @@ body {
     margin-bottom: 20px;
     font-family: 'montserrat';
 }
-
+/* log in textbars/ username and password */
 .login-block input {
     width: 100%;
     height: 42px;
@@ -101,11 +101,12 @@ body {
     outline: none;
 }
 
-
+/*Boarder around username/password*/
 .login-block input:active, .login-block input:focus {
     border: 1px solid #d3d3d3;
 }
 
+/*Submit button*/
 .login-block button {
     width: 100%;
     height: 40px;
@@ -121,11 +122,12 @@ body {
     outline: none;
     cursor: pointer;
 }
-
+/* hover over submit button */
 .login-block button:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);   
 }
+
 
 .bottomnav {
     width: 100%;
