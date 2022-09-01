@@ -11,6 +11,10 @@ html {
     width: 100vw;
 }
 
+body {
+    width: 100vw;
+}
+
 /*  Header: navbar split topnav-left and topnav-right */  
 .topnav {
     position: fixed;
@@ -67,7 +71,6 @@ html {
 .container {
     width: 100vw;
     min-height: 100vh;
-    padding: 5%;
     background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(15, 12, 111, 0.055)), url(adalmyndokkar.jpg);
     background-size: cover;
     background-position: center;
@@ -139,9 +142,10 @@ input::placeholder {
     border-radius: 60px;
     background: rgba(0, 0, 0, 0.9);  
     color: #ffffff;
-    padding: 10px 20px;
+    padding: auto;
     border-style: none;
     margin-left: 95%;
+    width: auto;
 }
 
 /* hover effect over NEXT button */ 
