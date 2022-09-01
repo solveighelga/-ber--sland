@@ -139,13 +139,19 @@ input::placeholder {
 
 /* NEXT button */
 .button-right {
-    border-radius: 60px;
     background: rgba(0, 0, 0, 0.9);  
-    color: #ffffff;
-    padding: auto;
-    border-style: none;
-    margin-left: 95%;
-    width: auto;
+    box-sizing:border-box;
+    border-radius: 60px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
 }
 
 /* hover effect over NEXT button */ 
