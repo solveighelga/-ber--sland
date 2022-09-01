@@ -70,12 +70,12 @@ body {
 }
 
 .box h1 {
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
     font-family: 'montserrat';
     font-weight: 600;
     position: relative;
-    bottom: 120px;   
+    bottom: 140px;   
 }
 
 .box h2 {
@@ -83,15 +83,16 @@ body {
     text-align: left;
     font-family: 'montserrat';
     font-weight: 400;
+    padding-bottom: 10px;
 }
 
 .form-container{
-    width:100%;
+    width:45%;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 80px;
+    bottom: 50px;
 }
 
 .search-bar input {
@@ -102,7 +103,7 @@ body {
     border: 0;
     margin-bottom: 20px;
     outline: none;
-    padding: 24px 20px;
+    padding: 22px 20px;
     font-size: 20px;
     align-items: center;
     font-family: 'montserrat';
@@ -112,7 +113,7 @@ input::placeholder {
 }
 
 .button-right {
-    float:right;
+    float: right;
     border-radius: 60px;
     background: rgba(0, 0, 0, 0.9);  
     color: #ffffff;
@@ -152,7 +153,7 @@ input::placeholder {
 }
 
 .buttom-icon-container {
-    display: flex;
+    float: flex;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -161,11 +162,12 @@ input::placeholder {
     font-family: 'montserrat';
     text-align: center;
     bottom: 60px;
-    padding: 15px;
+    font-size: 20px;
 }
 
 .buttom-icon a {
     color: #f2f2f2;
+    padding: 14px 10px;
 }
 
 .bottomnav {
