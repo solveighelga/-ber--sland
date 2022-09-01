@@ -145,7 +145,7 @@ input::placeholder {
 }
 
 /* hover effect over NEXT button */ 
-.button-right button:hover {
+.button-right a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);
 }
